@@ -1,0 +1,37 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+}
+#main-div{
+    text-align: center;
+    margin-top: 10rem;
+}
+#numbers{
+    width: 20rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: auto;
+  margin-right: auto;
+}
+#inpt-el {
+    width: 20rem;
+    font-size: 1rem;
+    height: 30px;
+    border: none;
+    background-color: #252525;
+    color: #fff;
+    text-align: right;
+    margin-bottom: 1rem;
+  }
+  #operators{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 20rem;
+    margin-left: auto;
+   margin-right: auto;
+  }
+  .btn{
+    height: 3rem;
+  }
