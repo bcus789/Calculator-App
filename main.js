@@ -12,7 +12,7 @@ const pointBtn = document.getElementById("point-btn")
 const acBtn = document.getElementById("ac-btn")
 const addBtn = document.getElementById("add-btn")
 const subBtn = document.getElementById("sub-btn")
-const dvdtn = document.getElementById("dvd-btn")
+const dvdBtn = document.getElementById("dvd-btn")
 const mltpBtn = document.getElementById("mltp-btn")
 
 const inptEl = document.getElementById("inpt-el")
@@ -61,5 +61,25 @@ nineBtn.addEventListener("click", function(){
 )
 zeroBtn.addEventListener("click", function(){
     inptEl.value += zeroBtn.value
+}  
+)
+pointBtn.addEventListener("click", function(){
+    inptEl.value += pointBtn.value
+}  
+)
+addBtn.addEventListener("click", function(){
+    inptEl.value += addBtn.value
+}  
+)
+subBtn.addEventListener("click", function(){
+    inptEl.value += subBtn.value
+}  
+)
+dvdBtn.addEventListener("click", function(){
+    inptEl.value += dvdBtn.value
+}  
+)
+mltpBtn.addEventListener("click", function(){
+    inptEl.value += mltpBtn.value
 }  
 )
