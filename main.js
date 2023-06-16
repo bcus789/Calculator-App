@@ -18,7 +18,6 @@ Array.from(buttons).forEach(button => button.addEventListener("click", inputHand
 
 function inputHandler(event){
     const bInput = event.target.value;
-    console.log(bInput)
     inptEl.value += bInput
     calculation += bInput
 }
